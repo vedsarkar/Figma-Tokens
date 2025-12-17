@@ -1,15 +1,15 @@
-**What It Is **                                                                                                        
+**What It Is**                                                                                                        
                                                                                                                      
   A Figma plugin that exports Figma Variables (colors, typography, spacing, effects) directly to GitHub repositories 
   in platform-ready formats. It eliminates manual token conversion and ensures design-code consistency.              
                                                                                                                      
-**  Target Users   **                                                                                                    
+**Target Users**                                                                                                    
                                                                                                                      
   - Primary: Front-end developers working with design systems                                                        
   - Secondary: Designers managing design tokens                                                                      
   - Tertiary: Team leads overseeing design-to-dev workflows                                                          
                                                                                                                      
-**  Core Features   **                                                                                                   
+**Core Features**                                                                                                   
                                                                                                                      
   - Auto-scan design tokens from Figma Variables                                                                     
   - Export to 5+ formats: CSS, JSON, JS/TS, iOS Swift, Android XML                                                   
@@ -19,7 +19,7 @@
   - Local download fallback                                                                                          
                                                                                                                      
   ---                                                                                                                
-**  Documentation Status  **                                                                                             
+**Documentation Status**                                                                                             
                                                                                                                      
   | Document          | Purpose                                        | Status        |                             
   |-------------------|------------------------------------------------|---------------|                             
