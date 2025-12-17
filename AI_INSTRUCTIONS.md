@@ -32,7 +32,8 @@ RULE: Protect user data at all costs
 ├── NEVER modify .git directory contents
 ├── NEVER alter package-lock.json without discussion
 ├── ALWAYS preserve original files during major refactors
-└── CREATE backups before destructive operations
+├── CREATE backups before destructive operations
+└── NEVER upload .gitignore to GitHub - keep it local only
 ```
 
 ### Security & Privacy Protocols
@@ -42,6 +43,7 @@ RULE: Zero tolerance for security breaches
 ├── NEVER expose personal information
 ├── ALWAYS validate .gitignore before sensitive operations
 ├── THIS FILE (AI_INSTRUCTIONS.md) is PRIVATE - never push
+├── .gitignore must NEVER be uploaded to GitHub (keep local only)
 ├── SCAN for secrets before suggesting commits
 └── USE environment variables for configuration
 ```
